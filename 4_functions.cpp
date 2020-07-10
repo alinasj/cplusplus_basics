@@ -13,6 +13,8 @@ double power(int base, int exponent)
   return result;
 }
 
+
+
 int main()
 {
   int base, exponent; //declaration and initialization
@@ -23,10 +25,10 @@ int main()
   cout<<"What is exponent? : ";
   cin >> exponent;
   cout<<"\n(InBuilt Function)\n";
-  cout<<"Power of " << base << " with exponent "<< exponent << " is : ";
+  cout<< base << " raised to the power of "<< exponent << " is : ";
   cout<< pow(base, exponent)<<endl;
   cout<<"\n(Our Function)\n";
-  cout<<"Power of " << base << " with exponent "<< exponent << " is : ";
+  cout<< base << " raised to the power of "<< exponent << " is : ";
   power_result = power(base, exponent);
   cout<< power_result <<endl;
   return 0;

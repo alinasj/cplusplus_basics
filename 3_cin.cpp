@@ -8,11 +8,11 @@ int main()
   int slice_3;
   slice_2 = 10;
 
-  cout<<"Enter a value:";
+  cout<<"Enter a value : ";
   cin >> slice_3;
   cout<<"\n slice 1 : " << slice;
   cout<<"\n slice 2 : " << slice_2;
-  cout<<"\n slice 3 : " << slice_3<<endl;
+  cout<<"\n slice 3 (user entered): " << slice_3<<endl;
 
 
   return 0;
